@@ -44,7 +44,7 @@ def color_count(image_name):
     return
 
 
-path = "D:/data/Benzhong_Tang/hlr/Singlet Fission/Pro2-Singlet Fission/Color-Abstract-20240713/Higher-Temperature/after-cut2"
+path = "Path-to-Picturefiles"
 files= os.listdir(path)
 for file in files:
     f = path + "/" + file
