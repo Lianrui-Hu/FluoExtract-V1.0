@@ -2,14 +2,15 @@
 This script is designed to count the number of yellow and blue pixels in an image and display the ratio of yellow to blue pixels. The script uses OpenCV and numpy for image processing.
 
 # Prerequisites
-Python 3.x
-OpenCV
-numpy
+* Python 3.x
+* OpenCV
+* numpy
 
 # Installation
 Before running the script, make sure you have OpenCV and numpy installed. You can install these packages using pip:
-
+'''
 pip install opencv-python numpy
+'''
 
 # Usage
 Save the script as color_count.py.
