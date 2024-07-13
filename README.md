@@ -8,16 +8,19 @@ This script is designed to count the number of yellow and blue pixels in an imag
 
 # Installation
 Before running the script, make sure you have OpenCV and numpy installed. You can install these packages using pip:
-'''
+
+```
 pip install opencv-python numpy
-'''
+```
 
 # Usage
 Save the script as color_count.py.
 Replace "Path-to-Picturefiles" with the actual path to your directory containing the images.
 Run the script:
 
+```
 python color_count.py
+```
 
 # Path to the directory containing the images
 path = "Path-to-Picturefiles"
@@ -28,8 +31,6 @@ color_count(image_name): This function processes an image to count the yellow an
 # Notes
 Ensure the images are located in the specified directory path.
 The script will process each image file in the specified directory and display the results.
-# Author
-[Your Name] - [Your Contact Information]
 
 # License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
